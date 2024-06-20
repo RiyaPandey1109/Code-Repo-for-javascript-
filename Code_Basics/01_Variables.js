@@ -13,7 +13,7 @@ accoutcity="Bengaluru"
 /* 
 Prefer not to use var
 because it creates issue in block scope and functional scope  
- */
+*/
 
 console.log(accountId);
 console.table([accountEmail,accountPassword,accoutCity,accountState])

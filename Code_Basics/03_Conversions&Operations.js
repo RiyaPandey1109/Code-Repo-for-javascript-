@@ -33,8 +33,21 @@ let negValue = -value
 console.log(negValue);
 
 //String operations
-
+//Type Conversion
 console.log("1"+2);
 console.log(1+"2");
-console.log("1"+2+2);
+console.log("1"+2+2); // Javascript consideres the first number as string then it performs concatenation
+
 console.log(1+2+"2");
+
+//Tricky conversion
+console.log(true);
+let  num1, num2, num3;
+num1 =num2= num3=2+2;
+// most important part of writing code is to make the code readable 
+// prefix and postfix code
+
+
+
+
+console.log(true)
