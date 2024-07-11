@@ -15,10 +15,10 @@ console.log(Newaccount);
 
 let UserOne ={
     email:"riyapandey.cse",
-    name:"riya"
+    name:"riya" 
 
 }
-
+// Here copy is not passed directly referenced is passed so if we make changes the changes will reflect to other variables too.
 let userTwo = UserOne ;
 
 userTwo.email = "riyapandey.cse.2021";
