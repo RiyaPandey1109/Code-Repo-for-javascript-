@@ -1,4 +1,4 @@
-
+// Singlton object 
 const tinderUser= new Object()
 
 // Nested Objects 
@@ -23,4 +23,16 @@ const users=[
 // Here we will get the array of all the keys 
 // Console.log(Onject.values(tinderuser));
 // Console.log(Onject.Enteries(tinderuser));
+const regularuse ={
+    email:"some@gmail.com",
+    fullname : {
+        firstname : "Riya",
+        Secondname : "pandey"
+    }
+
+}
+console.log(regularuse);
+console.log(regularuse .fullname.Secondname);
+// IN THIS way we can acces the Objects.
+console.log(Object.keys(regularuse));
 
