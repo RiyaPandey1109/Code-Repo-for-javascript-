@@ -55,7 +55,7 @@ function startVisualization() {
         } else {
             clearInterval(interval);
         }
-    }, 500);
+    }, 1000); // Increased delay to 1000 milliseconds (1 second)
 }
 
 function updateTableCell(row, col, value) {
