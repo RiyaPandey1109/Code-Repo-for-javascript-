@@ -1,7 +1,4 @@
 
-
-
-
 // Brakets define the scope
 // {
 
